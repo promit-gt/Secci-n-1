@@ -1,4 +1,4 @@
-<openerp>
+<odoo>
     <data>
 
         <record id="caplinpointsv_view_partner_form" model="ir.ui.view">
@@ -12,6 +12,7 @@
                         <field name="consumidor_final"/>
                     </field>
                     <field name="vat" position="after">
+                        <field name="dui"/>
                         <field name="pequenio_contribuyente"></field>
                         <field name="giro_negocio_id"/>
                     </field>
@@ -20,4 +21,4 @@
         </record>
 
     </data>
-</openerp>
+</odoo>
